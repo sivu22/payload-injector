@@ -2,7 +2,7 @@
 This small tool that I wrote a while ago allows for data injection into a signed Windows executable (PE format) without breaking the Authenticode digital signature. After signing an executable, every change brought to its data will invalidate the digital signature.
 
 # Why then?
-This is very useful when you have to deal with multi-platform programs and systems. One very common usecase is a server who distributes client programs for the Windows platform.<br>
+This is very useful when you have to deal with multi-platform programs and systems. One very common use case is a server who distributes client programs for the Windows platform.<br>
 <br>
 For a seamless integration and improved UX, one could provide everything in one package that the user downloads and installs on his machine. All this without further complications like multiple download files or installations, more protocols and communication, extra configuring or bringing additional computation to the server (i.e. building Windows executables).
 
